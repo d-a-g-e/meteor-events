@@ -1,0 +1,12 @@
+header {
+  position: fixed;
+  height: 42px;
+  width: 100%;
+  background-color: #000;
+  z-index: 2;
+}
+
+.map-container {
+  height: calc(100vh - 42px);
+  max-width: 100%;
+}
